@@ -2,6 +2,7 @@ import searchIcon from "./../../images/icon/searchIcon.svg";
 import notificationIcon from "./../../images/icon/notificationIcon.svg";
 import shopIcon from "./../../images/icon/shopIcon.svg";
 import heartIcon from "./../../images/icon/heartIcon.svg";
+import numberOfShopNotification from "./../../images/icon/numberOfShopNotification.svg";
 import "./navbar.scss";
 
 const Navbar = () => {
@@ -42,6 +43,8 @@ const Navbar = () => {
             <li className="profile-item">
               <a href="#">
                 <img src={shopIcon} alt="heart Icon" />
+                <img src={numberOfShopNotification} alt="heart Icon" className="numberOfShopNotification" />
+
               </a>
             </li>
             <li className="profile-item">
