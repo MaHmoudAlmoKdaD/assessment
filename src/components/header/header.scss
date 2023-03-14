@@ -1,0 +1,120 @@
+// font family from google
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+.header {
+  .wrapperHeader {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 25px 97px 25px 97px;
+    .leftSide {
+      align-items: start;
+      p {
+        width: 152px;
+        height: 47px;
+        // /* Heading/H3 Bold */
+        // // font-family: "DM Sans";
+        // // font-style: normal;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 120%;
+
+        // /* identical to box height, or 47px */
+        letter-spacing: 0.03em;
+
+        /* Light/Secondary Color/50% */
+        color: #f86338;
+      }
+    }
+    .rightSide {
+      display: flex;
+      justify-content: flex-end;
+
+      .wrapperContent {
+        margin-left: 30px;
+        .content {
+          display: flex;
+          align-items: center;
+          &:hover {
+            cursor: pointer;
+            color: #808099;
+          }
+          .icon {
+            height: 22px;
+            width: 22px;
+          }
+          .text {
+            /* Body/Body 1 Semibold */
+
+            font-family: "DM Sans", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 120%;
+            /* or 19px */
+
+            letter-spacing: 0.03em;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header {
+    .wrapperHeader {
+      padding: 25px 25px 25px 25px;
+      .rightSide {
+        height: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    .wrapperHeader {
+      .leftSide {
+        p {
+          font-size: 19px;
+        }
+      }
+      .rightSide {
+        height: 100%;
+        .wrapperContent {
+          .content {
+            .text {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    .wrapperHeader {
+      padding: 25px 15px 25px 15px;
+      .leftSide {
+        p {
+          font-size: 19px;
+        }
+      }
+      .rightSide {
+        .wrapperContent {
+          .content {
+            .text {
+              width: 45px;
+              font-size: 9px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
