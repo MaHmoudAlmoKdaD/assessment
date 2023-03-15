@@ -16,7 +16,7 @@
 }
 
 .navbar {
-  background: #e5e5e5;
+  background-color: #f6f5f5;
   .wrapperNavbar {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -53,11 +53,6 @@
           color: #9a9ab0;
         }
       }
-      .searchIcon {
-        position: relative;
-        top: -2.5em;
-        left: 90%;
-      }
     }
     .nav-profile {
       display: flex;
@@ -71,8 +66,8 @@
             color: #11142d;
             font-weight: bold;
           }
-          .numberOfShopNotification{
-            background-color: #F86338;
+          .numberOfShopNotification {
+            background-color: #f86338;
             position: relative;
             top: -15px;
             left: -7px;

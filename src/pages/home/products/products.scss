@@ -1,0 +1,124 @@
+// font family from google
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+// style-for-all-texts-in-this-component
+.common-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+}
+
+.products {
+  background-color: #f6f5f5;
+  padding-bottom: 150px;
+  .wrapperProducts {
+    padding: 150px 97px 0 97px;
+    .header {
+      text-align: center;
+      p {
+        @extend .common-text;
+        font-size: 48px;
+      }
+    }
+    .categories {
+      width: 100%;
+      margin: 50px 0 50px 0;
+      .cat-list {
+        padding: 0 20px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .cat-item {
+          @extend .common-text;
+          color: #aeaebb;
+          font-size: 24px;
+          a {
+            text-decoration: none;
+            color: inherit;
+            &:active {
+              color: #f86338;
+            }
+            &:hover {
+              color: #f86338;
+            }
+          }
+        }
+      }
+    }
+    .wrapperProductsCard {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 15px;
+      //   justify-content:space-between ;
+      .cardProduct {
+        background-color: #fff;
+        width: 1fr;
+        .image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            padding-top: 30px;
+            width: 350px;
+            height: 400px;
+          }
+        }
+        .details {
+          padding: 40px;
+          .categoryName {
+            padding: 20px 0 0 0;
+            p {
+              color: #9a9ab0;
+              @extend .common-text;
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+          .productName {
+            padding: 15px 0 0 0;
+            p {
+              @extend .common-text;
+              font-size: 48px;
+            }
+          }
+          .arrowRight {
+            margin-top: 30px;
+            width: 40px;
+            height: 40px;
+            background-color: #f86338;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .icon {
+              img {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .btn {
+    margin-top: 70px;
+    text-align: center;
+    button {
+      background: #f86338;
+      color: #fff;
+      padding: 20px 30px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 7px;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+        transition: ease-in 0.4s;
+      }
+    }
+  }
+}

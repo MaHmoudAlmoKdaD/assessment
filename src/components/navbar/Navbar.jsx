@@ -31,7 +31,6 @@ const Navbar = () => {
             placeholder="Search what you need"
             className="searchInput"
           />
-          <img src={searchIcon} alt="search Icon" className="searchIcon" />
         </div>
         <div className="nav-profile">
           <ul className="profile-list">
@@ -43,8 +42,11 @@ const Navbar = () => {
             <li className="profile-item">
               <a href="#">
                 <img src={shopIcon} alt="heart Icon" />
-                <img src={numberOfShopNotification} alt="heart Icon" className="numberOfShopNotification" />
-
+                <img
+                  src={numberOfShopNotification}
+                  alt="heart Icon"
+                  className="numberOfShopNotification"
+                />
               </a>
             </li>
             <li className="profile-item">

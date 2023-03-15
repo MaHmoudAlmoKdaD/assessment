@@ -19,42 +19,42 @@
         width: 100px;
         height: 100px;
         left: 68px;
-        top: 253.92px;
+        top: 243.92px;
       }
       .shape2 {
         position: absolute;
         width: 39px;
         height: 39px;
         left: 579px;
-        top: 310px;
+        top: 290px;
       }
       .shape3 {
         position: absolute;
         width: 56.34px;
         height: 56.34px;
-        left: 1227.88px;
-        top: 310px;
+        left: 1200.88px;
+        top: 290px;
       }
       .shape4 {
         position: absolute;
         width: 9px;
         height: 9px;
         left: 119px;
-        top: 619px;
+        top: 629px;
       }
       .shape5 {
         position: absolute;
         width: 59.48px;
         height: 59.48px;
         left: 618.89px;
-        top: 659px;
+        top: 690px;
       }
       .shape6 {
         position: absolute;
         width: 18px;
         height: 18px;
         left: 1214px;
-        top: 552px;
+        top: 582px;
       }
       .shape7 {
         position: absolute;
@@ -65,7 +65,7 @@
       }
     }
     .rightSide {
-      height: 80vh;
+      height: 100vh;
       display: flex;
       flex-direction: column;
       // align-items: center;
@@ -119,7 +119,7 @@
         justify-content: center;
 
         .paragraph {
-        //   padding: 0 20px;
+          //   padding: 0 20px;
           width: 90%;
         }
       }
@@ -140,15 +140,15 @@
   }
 }
 @media screen and (max-width: 450px) {
-    .welcome {
-        .wrapperWelcome {
-          .rightSide {
-            .header {
-              p {
-                font-size: 34px;
-              }
-            }
+  .welcome {
+    .wrapperWelcome {
+      .rightSide {
+        .header {
+          p {
+            font-size: 34px;
           }
         }
       }
+    }
+  }
 }
