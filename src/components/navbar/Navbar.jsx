@@ -51,7 +51,7 @@ const Navbar = () => {
             </li>
             <li className="profile-item">
               <a href="#">
-                <i class="fa fa-user-o" aria-hidden="true"></i>
+                <i className="fa fa-user-o" aria-hidden="true"></i>
               </a>
             </li>
             <li className="profile-item">

@@ -1,3 +1,4 @@
+import Button from "../../../components/button/Button";
 import shape1 from "./../../../images/shapes/shape1.svg";
 import shape2 from "./../../../images/shapes/shape2.svg";
 import shape3 from "./../../../images/shapes/shape3.svg";
@@ -45,7 +46,7 @@ const Welcome = () => {
             </p>
           </div>
           <div className="btn">
-            <button>Find out More</button>
+            <Button/>
           </div>
         </div>
       </div>
